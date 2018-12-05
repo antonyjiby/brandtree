@@ -3,11 +3,11 @@
     package="com.example.x.brandtree">
 
     <application
-        android:hardwareAccelerated="false"
-        android:largeHeap="true"
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
@@ -25,7 +25,10 @@
         <activity
             android:name=".Main3Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Login"
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OTPActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 

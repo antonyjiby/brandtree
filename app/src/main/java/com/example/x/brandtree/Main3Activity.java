@@ -91,6 +91,11 @@ public class Main3Activity extends AppCompatActivity {
 
     }
 
+    public  void  login(View view){
+        Intent i = new Intent(this.getApplicationContext(),Login.class);
+        startActivity(i);
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         this.gestureDetectorCompatThird.onTouchEvent(event);
